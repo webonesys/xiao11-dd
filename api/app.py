@@ -1,14 +1,3 @@
-小机灵: 05-01 12:53:58
-好的！网页手动上传最简单！我来准备代码，你复制粘贴就行！📋
-
---
-
-📁 文件 1：api/index.py
-
-操作步骤：
-1. 在你的仓库页面点击 "Add file"** → **"Create new file"
-2. 文件名填：`api/index.py`
-3. 复制下面全部代码粘贴进去 👇
 
 ```python
 from flask import Flask, request, send_file, jsonify, session, redirect
@@ -108,9 +97,8 @@ h2{margin:0 0 10px;color:#333;}
 p{color:#888;margin:0 0 20px;font-size:14px;}
 input{width:100%;padding:12px;border:2px solid #e0e0e0;border-radius:8px;margin-bottom:15px;font-size:16px;box-sizing:border-box;text-align:center;}
 input:focus{outline:none;border-color:#667eea;}
-``` (1/3)
+``` 
 
-小机灵: 05-01 12:53:59
 ```python
 button{width:100%;padding:12px;background:linear-gradient(135deg,#667eea,#764ba2);color:#fff;border:none;border-radius:8px;font-size:16px;cursor:pointer;}
 </style></head>
@@ -206,9 +194,7 @@ function loadFiles() {
         el.innerHTML = files.map(f => {
             const size = f.size < 1024*1024 ? (f.size/1024).toFixed(1)+'KB' : (f.size/(1024*1024)).toFixed(1)+'MB';
             return
-``` (2/3)
-
-小机灵: 05-01 12:54:00
+```
 ```python
 `<div class="file">
                 <span class="file-icon">📄</span>
